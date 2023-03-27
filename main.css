@@ -70,17 +70,13 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 .sub-plan {
  display: flex;
- justify-content: space-between; 
+ justify-content: space-around; 
  align-items: center;
  flex-direction: row;
  background-color: rgb(248,249,253);
  border-radius: 15px;
  padding: 1rem 1rem;
  margin: 2rem 4.5rem;
-}
-
-.sub-plan a {
-  text-decoration: underline;
 }
 
 .annual-plan {
@@ -91,13 +87,14 @@ font-weight: 700;
 .pay-button {
 padding: 0.8rem 5.5rem;
 background: rgb(56,43,223);
-border-style: none;
+border: none;
 box-shadow:1px 1px 3px 3px rgb(56,43,223);
 border-radius: 15px;
 color: white;
 cursor: pointer;
 }
 
-.text-pointer {
+.cancel-order {
 cursor: pointer;
+padding: 1.5rem;
 }
