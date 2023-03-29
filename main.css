@@ -11,10 +11,6 @@ html, body {
   height: 100%;
 }
 
-/*a {
-  text-decoration: none;
-}*/
-
 body {
   -webkit-font-smoothing: antialiased;
   align-items: center;
@@ -29,6 +25,7 @@ body {
   text-align: center;
   background: url(./images/pattern-background-desktop.svg), #E1E9Ff;
   background-repeat: no-repeat, no-repeat;
+  background-size: cover;
 }
 
 img, picture, video, canvas, svg {
@@ -99,4 +96,10 @@ cursor: pointer;
 .cancel-order {
 cursor: pointer;
 padding: 1.5rem;
+}
+
+footer {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
 }
