@@ -27,6 +27,8 @@ body {
   line-height: 1.5;
   min-height: 100vh;
   text-align: center;
+  background: url(./images/pattern-background-desktop.svg), #E1E9Ff;
+  background-repeat: no-repeat, no-repeat;
 }
 
 img, picture, video, canvas, svg {
