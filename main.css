@@ -25,7 +25,7 @@ body {
   text-align: center;
   background: url(./images/pattern-background-desktop.svg), #E1E9Ff;
   background-repeat: no-repeat, no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 img, picture, video, canvas, svg {
@@ -51,6 +51,7 @@ max-width: 37.5rem;
 background: white;
 border-radius: 15px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin: 0 5rem 0 5rem;
 }
 
 .image-hero {
@@ -99,7 +100,5 @@ padding: 1.5rem;
 }
 
 footer {
-  display: flexbox;
-  align-items: center;
-  justify-content: center;
+  margin-top: 20rem;
 }
